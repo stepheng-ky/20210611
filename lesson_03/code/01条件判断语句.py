@@ -27,3 +27,4 @@ if num > 10 and num < 20:
 username = input('请输入管理员账号：')
 if username == 'admin':
     print('欢迎管理员~')
+
