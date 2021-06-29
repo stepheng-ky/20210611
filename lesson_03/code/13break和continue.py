@@ -12,11 +12,11 @@ print('########## 测试break ##########')
 i = 1
 n = 10
 while i <= n :
+    print(i)
     i += 1
     if i == 5 :
         print('跳出循环')
         break
-    print(i)
 else :
     print('循环结束')
 
@@ -24,10 +24,10 @@ print('########## 测试continue ##########')
 i = 1
 n = 10
 while i <= n :
+    print(i)
     i += 1
     if i == 5 :
         print('continue')
         continue
-    print(i)
 else:
     print('循环结束')
