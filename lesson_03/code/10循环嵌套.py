@@ -19,10 +19,10 @@
 # while i <= row :
 #     print('*'*column)
 #     i += 1
-print('############## 打印多行多列** ##############')
 column = 10
 row = 10
 i = 1
+print(f'############## 打印{row}行{column}列** ##############')
 while i <= row :
     j = 1
     while j <= column :
@@ -37,9 +37,9 @@ while i <= row :
 # ***
 # ****
 # *****
-print('############## 三角形* ##############')
 i = 1
 n = 5
+print(f'############## 打印{n}行的三角形* ##############')
 while i <= n :
     j = 1
     while j <= i:
@@ -60,10 +60,11 @@ while i <= 9 :
     i += 1
 
 # 打印100以内质数
-print('############## 打印100以内质数 ##############')
 i = 2
+n = 1000
+print(f'############## 打印{n}以内质数 ##############')
 count = 0
-while i <= 100:
+while i <= n:
     flag = True
     j = 2
     while j <= i ** 0.5:
@@ -75,4 +76,4 @@ while i <= 100:
         print(i,end=' ')
         count += 1
     i += 1
-print(f'\n100以内有{count}个质数')
+print(f'\n如上，{n}以内有{count}个质数')
