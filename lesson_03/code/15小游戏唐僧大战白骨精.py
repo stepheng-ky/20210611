@@ -73,7 +73,7 @@ while True:
         if life_boss <= 0:
             print(f'BOSS受到{attack_player}点伤害，已死亡。玩家胜利！')
             break
-        # BOSS攻击
+        # BOSS攻击玩家
         print(f'BOSS受到{attack_player}点伤害，剩余生命值{life_boss}。')
         print('=' * 70)
         print(f'BOSS攻击了您。')
