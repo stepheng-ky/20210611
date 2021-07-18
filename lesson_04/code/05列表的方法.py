@@ -32,3 +32,10 @@ print(f'用索引::-1反转：{status}')
 # sort() 排序,默认升序排列 降序用sort(reverse=True)
 status.sort()
 print(f'sort排序后：{status}')
+
+
+L = [2,1,10,3]
+print(L.sort())
+print(L)
+print(L.sort(reverse=True))
+print(L)
