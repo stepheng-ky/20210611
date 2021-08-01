@@ -41,7 +41,7 @@ print(fn_main(fn2,l))
 print(list(filter(fn1,l)))
 print(list(filter(fn2,l)))
 
-# 匿名函数 lambda 语法糖，舒服
+# 匿名函数 lambda 语法糖，舒服 ，语法比较简单
 def fn5(a,b):
     return a + b
 lambda a,b:a+b
