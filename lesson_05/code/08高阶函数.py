@@ -61,4 +61,11 @@ l = [1,2,3,4,5,6,7,8,9,10]
 r = map(lambda i:i**2,l )
 print(list(r))
 
-
+# sort() 对列表进行排序
+#  默认比较大小
+#  可以传key参数，传的是函数，它会先遍历所有元素调用此函数，将此函数返回值来进行比较 排序
+l = ['123','2','ccca','dd','accc22222','bb']
+l.sort()
+print(l)
+l.sort(key=len)
+print(l)
